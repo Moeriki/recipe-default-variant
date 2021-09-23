@@ -1,0 +1,17 @@
+{
+  "name": "recipe-default-variant",
+  "version": "1.0.0",
+  "license": "MIT",
+  "type": "module",
+  "main": "style.css.js",
+  "scripts": {
+    "build": "node build",
+    "test": "node dist/index.js"
+  },
+  "devDependencies": {
+    "@vanilla-extract/css": "^1.6.0",
+    "@vanilla-extract/esbuild-plugin": "^2.0.0",
+    "@vanilla-extract/recipes": "^0.1.0",
+    "esbuild": "^0.13.1"
+  }
+}
